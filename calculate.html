@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-73Z5VB1F2J"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-73Z5VB1F2J');
-    </script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="/css/calculate.css">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/body.css">
-    <link rel="stylesheet" href="/css/navigationbar.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-    </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculate | MyDorm</title>
-    <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
-</head>
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-73Z5VB1F2J"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+    
+            gtag('config', 'G-73Z5VB1F2J');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="/dorm-app/css/calculate.css">
+        <link rel="stylesheet" href="/dorm-app/css/reset.css">
+        <link rel="stylesheet" href="/dorm-app/css/body.css">
+        <link rel="stylesheet" href="/dorm-app/css/about.css">
+        <link rel="stylesheet" href="/dorm-app/css/navigationbar.css">
+        <link rel="stylesheet" href="/dorm-app/css/home.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculate - DormCalc</title>
+        <link rel="icon" type="image/x-icon" href="/dorm-app/favicon_io/favicon.ico">
+    </head>
 
 <body class="body">
 
-    <!-- Navigation Bar (Top) -->
-    <header>
+       <!-- Navigation Bar (Top) -->
+       <header>
         <div class="splash_navbar">
-            <a href="/index.html" class="splash_logo">
-                MyDorm
+            <a href="/dorm-app/index.html" class="splash_logo">
+                DormCalc
             </a>
             <div class="splash_right_side_navbar">
                 <nav class="splash_right_side_navbar_items">
-                    <a href="/about.html">About</a>
-                    <a href="/calculate.html" class="splash_navbar_contact">Calculate</a>
+                    <a href="/dorm-app/about.html">About</a>
+                    <a href="/dorm-app/calculate.html" class="splash_navbar_contact">Calculate</a>
                 </nav>
                 <div class="splash_hamburger_menu">
                     <img class="mobile_icon" src="icons/Hamburger Menu.svg" alt="Hamburger Menu">
@@ -49,15 +51,14 @@
 
         <div class="splash_menu_mobile">
             <nav class="splash_right_side_navbar_items_mobile">
-                <a href="/about.html">About</a>
-                <a href="/calculate.html" class="splash_navbar_contact">Calculate</a>
+                <a href="/dorm-app/about.html">About</a>
+                    <a href="/dorm-app/calculate.html" class="splash_navbar_contact">Calculate</a>
             </nav>
         </div>
 
 
 
     </header>
-
     <div class="fixed-price-bar">
         <div class="price-bar-information">
             Total: $<span id="final-cost-fixed">0.00</span>
@@ -104,8 +105,8 @@
                         <div class="container-for-products">
                             <button class="items-container" id="ramen" value="10" data-selected="false"
                                 data-type="food">
-                                <img class="plus-icon" src="/icons/+.svg" />
-                                <img src="/images/Ramen Noodles.jpeg" />
+                                <img class="plus-icon" src="/dorm-app/icons/+.svg" />
+                                <img src="/dorm-app/images/Ramen Noodles.jpeg" />
                             </button>
                             <div class="product-info">
                                 <div class="item-title">Ramen Noodles</div>
@@ -115,8 +116,8 @@
                         <div class="container-for-products">
                             <button class="items-container" id="water" value="12" data-selected="false"
                                 data-type="food">
-                                <img class="plus-icon" src="/icons/+.svg" />
-                                <img src="/images/Water.jpeg" />
+                                <img class="plus-icon" src="/dorm-app/icons/+.svg" />
+                                <img src="/dorm-app/images/Water.jpeg" />
                             </button>
                             <div class="product-info">
                                 <div class="item-title">Water - Pack of 12</div>
@@ -131,8 +132,8 @@
                         <div class="container-for-products">
                             <button class="items-container" id="wipes" value="7" data-selected="false"
                                 data-type="cleaning">
-                                <img class="plus-icon" src="/icons/+.svg" />
-                                <img src="/images/Wipes.jpg" />
+                                <img class="plus-icon" src="/dorm-app/icons/+.svg" />
+                                <img src="/dorm-app/images/Wipes.jpg" />
                             </button>
                             <div class="product-info">
                                 <div class="item-title">Disinfectant Wipes</div>
@@ -142,8 +143,8 @@
                         <div class="container-for-products">
                             <button class="items-container" id="paper-towels" value="20" data-selected="false"
                                 data-type="cleaning">
-                                <img class="plus-icon" src="/icons/+.svg" />
-                                <img src="/images/Paper Towels.jpg" />
+                                <img class="plus-icon" src="/dorm-app/icons/+.svg" />
+                                <img src="/dorm-app/images/Paper Towels.jpg" />
                             </button>
                             <div class="product-info">
                                 <div class="item-title">Paper Towels - Pack of 10</div>
@@ -158,8 +159,8 @@
                         <div class="container-for-products">
                             <button class="items-container" id="toilet-paper" value="15" data-selected="false"
                                 data-type="toiletries">
-                                <img class="plus-icon" src="/icons/+.svg" />
-                                <img src="/images/Toilet Paper.jpeg" />
+                                <img class="plus-icon" src="/dorm-app/icons/+.svg" />
+                                <img src="/dorm-app/images/Toilet Paper.jpeg" />
                             </button>
                             <div class="product-info">
                                 <div class="item-title">Toilet Paper - Pack of 12</div>
@@ -169,8 +170,8 @@
                         <div class="container-for-products">
                             <button class="items-container" id="hand-soap" value="5" data-selected="false"
                                 data-type="toiletries">
-                                <img class="plus-icon" src="/icons/+.svg" />
-                                <img src="/images/Hand Soap.jpg" />
+                                <img class="plus-icon" src="/dorm-app/icons/+.svg" />
+                                <img src="/dorm-app/images/Hand Soap.jpg" />
                             </button>
                             <div class="product-info">
                                 <div class="item-title">Hand Soap</div>
@@ -184,12 +185,15 @@
         </div>
     </div>
 
+    <footer class="footer">
+        <a href="/dorm-app/privacy.html">Privacy</a>
+</footer>
+
 
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
     integrity = "sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="</script>
-<script src="/js/navigationbar.js"></script>
-<script src="/js/app1.js"></script>
-<script src="/js/showItemClicked.js"></script>
+<script src="/dorm-app/js/navigationbar.js"></script>
+<script src="/dorm-app/js/app1.js"></script>
 
 </html>
