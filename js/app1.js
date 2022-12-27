@@ -23,18 +23,15 @@ document.querySelectorAll('.items-container').forEach(item => {
         let section = item.dataset.type;
         updateTotals(amount, section);
     })
-})
-
-document.querySelectorAll('.items-container').forEach(item => {
+    
     item.addEventListener('mouseover', event => {
-         if (item.dataset.selected == False) {
+            if (item.dataset.selected == False) {
             item.style.opacity = '0.7';
         } 
     })
-})
 
-document.querySelectorAll('.items-container').forEach(item => {
-    item.addEventListener('mouseout', event => {
+   
+   item.addEventListener('mouseout', event => {
         if (item.dataset.selected == False) {
             item.style.opacity = '1';
         }
